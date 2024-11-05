@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+.font-young {
+  font-family: "Young Serif", serif;
+}
+
+.main-background {
+  width: 100%;
+  height: 200px;
+  background-image: url("assets/images/image-omelette.jpeg");
+  background-size: cover;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+main {
+  width: 520px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 35px;
+  margin: 40px auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 10px;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.p-b {
+  padding-bottom: 10px;
+}
+
+.m-b {
+  margin-bottom: 10px;
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.preparation-time ul li,
+.ingredients-list li {
+  padding-bottom: 5px;
+}
+
+.ingredients,
+.instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 0 0 12px 0;
+}
+
+.instructions ol li {
+  margin: 7px 0;
+}
+.nutrition {
+  padding: 5px 0 0 0;
+}
+
+.Stone900 {
+  color: hsl(24, 5%, 18%);
+}
+.Stone600,
+.preparation-time ul li,
+.ingredients-list li,
+.instructions ol li,
+.nutrition {
+  color: hsl(30, 10%, 34%);
+}
+.Stone150 {
+  color: hsl(30, 18%, 87%);
+}
+.brown,
+.same-color {
+  color: hsl(14, 45%, 36%);
+}
+.rose {
+  color: hsl(332, 51%, 32%);
+}
+.same-color {
+  font-weight: 500;
+}
